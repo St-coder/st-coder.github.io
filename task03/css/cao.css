@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #68cdd5;
+    font-size: 62.5%;
+}
+img{
+    border: 0 none;
+}
+.back{
+    margin: 1.8rem 3.5rem;
+    width: 5.4rem;
+    height: 5.4rem;
+}
+.logo{
+    display: block;
+    margin: 2.4rem auto;
+    width: 18rem;
+    height: 7rem;
+}
+.main{
+    margin: 3rem 20%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+.left{
+    float: left;
+    margin: 20% 0 0 15%;
+
+}
+.right{
+    float: right;
+    margin: 20% 15% 0 0;
+
+    text-align: right;
+}
+a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    text-indent: -1.2rem;
+}

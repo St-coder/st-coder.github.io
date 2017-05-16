@@ -1,0 +1,17 @@
+*{margin:0;padding:0;}
+    .body{font-size: 62.5%;
+background-color: hsl(184, 56%, 62%);
+    width: 100%;
+    font-size: 62.5%;
+}
+
+.arrow{margin:2% 0 0 2% }
+.logo{text-align:center;margin-top:20em}
+.main{margin: 0 auto;padding: 50% 50%;}
+.bottom{position:absolute;margin:60% 50% 40% 50%;}
+.bottom-left{
+    float: left;margin-left:25%;
+}
+.bottom-right{
+    float: right;margin-left:75%;
+}
