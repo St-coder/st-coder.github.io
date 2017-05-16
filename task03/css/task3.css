@@ -1,39 +1,45 @@
-.content{
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
-	background-color: #68cdd5;
-	font-size: 62.5%;
+html {font-size: 62.5%}
+body{margin:0 auto;background:#68cdd5;font-size: 62.5%}
+.back{
+    margin: 1.8rem 3.5rem;
+    width: 10rem;
+
+   }
+.back img{width: 2.7rem;}
+.logo {display:block;
+    margin: 2.4rem auto;
+    width: 18rem;
+    text-align: center;
+   }
+p{  margin: 3rem 20%;
+    font-family:"Microsoft YaHei";
+    font-size:2rem;
+    color:white;
+    text-align: center;
 }
-.top{
-	margin: 1.5% 0 0 1.5%;
-	float: left;
+img {border: 0 none; }
+
+.main{
+    margin-bottom:50%;
+    font-family:"Microsoft YaHei";
+    font-size:1rem;
+    color:white;
+    text-align: center;
 }
-.center{
-	padding-top:5%;
-	}
-.center div{
-	text-align: center;
-}
-.center p{
-	font-size: 2em;
-	color: white;
-	padding: 5% 10%;
+.main_left{
+    float: left;
+    margin: 10% 0 0 20%;
+    width: 3rem;
 
 }
-.bottom{
-	color: white;
-	margin: 0 20%;
-}
-.bottom img{
-	max-width:50px;
-	margin-left: 15%;
+.main_left img{
+    width: 3rem;
+
 }
 
-.bottom_1{
-	float: left;
-}
-.bottom_2{
-	float: right;
-}
-
+.main_right{
+    display: block;
+    float: right;
+    margin: 10% 20% 0 0;
+  }
+.main_right img{width:3rem;}
