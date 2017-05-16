@@ -34,11 +34,11 @@ img {border: 0 none; }
 }
 .main_left img{
     width: 3rem;
-
+    margin-left: 1rem;
 }
 
 .main_right{
-    display: block;
+    /*display: block;*/
     float: right;
     margin: 10% 20% 0 0;
   }
