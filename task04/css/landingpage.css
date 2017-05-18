@@ -1,0 +1,32 @@
+body{
+		padding:0px;
+			margin:0px;
+			text-align:center;
+			background:rgb(239,240,244); /* 背景色 */
+
+		}
+	.header {
+     		padding:20px;
+     			background:rgb(95,192,205); /* 背景色 */
+
+     			}
+
+	.close_text	{
+     					text-align:left;
+     					color:rgb(239,240,244);
+     					font-size:1em;
+     					float:left;
+     				}
+	.log_text	{
+     				text-align:center;
+     				color:rgb(239,240,244);
+     				font-size:1.2em;
+    				text-align:center;
+     				}
+	.login_text	{
+     				text-align:right;
+     				color:rgb(239,240,244);
+     				font-size:1em;
+     				float:right;
+     				}
+
