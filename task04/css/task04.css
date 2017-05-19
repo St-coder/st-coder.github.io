@@ -24,7 +24,7 @@ main {
 
 main input {
     margin: 1% 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
     height: 5rem;
     border: 0;
@@ -37,8 +37,6 @@ main label img {
     margin: 2rem;
     padding-right: 1rem;
     border-right: 0.15rem #eaedee solid;
-
-
 }
 
 main button {
