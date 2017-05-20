@@ -4,59 +4,17 @@
     padding:0;
 }
 header{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+
     background-color: #5fc0cd;
     width:100%;
-    font-size: 2rem;
+    padding:3%;
     color: white;
+    position: absolute;
 }
-
-header a {
-    padding:3% 4.2%;
+.header.a {
     text-decoration: none;
-    color:white;
-}
-
-header header_middle{
-    font-weight:bold;
-}
-
-main{
-    background-color: #eff0f4;
-    padding-bottom: 50%;
-}
-
-main input {
-    width: 100%;
-    border: 0;
-    outline: none;
-    font-size: 1.9rem;
-    position: relative;
-    text-indent: 7rem;
-    margin: 15px 0;
-}
-
-
-main img{
-    position:absolute;
-    margin:40%;
-    padding-right:0.5rem;
-    border-right:0.11rem solid #eaedee;
-}
-
-main button{
-    width:100%;
-    font-size: 2rem;
-    color: white;
-    background: #5fc0cd;
-    border: 0;
-}
-main a {
-    text-decoration: none;
-    margin-top:0.2rem;
-    margin-right: 2rem;
-    float: right;
-    color:#5fc0cd;
+    position: absolute;
+    left:3%;
+    font-size:3rem;
+    color: #ffffff;
 }

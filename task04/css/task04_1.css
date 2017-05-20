@@ -1,10 +1,101 @@
 
 
-.body{
-    background-color: red;
+
+body{
+    padding:0;
+    margin:0;
+    background:rgb(239,240,244); /* 鑳屾櫙鑹� */
+}
+header {
+    padding:20px;
+    background:rgb(95,192,205);
+    font-color:white;
+}
+input{
+    border:0;
+    width:85%;
+    height:30px;
+    outline:medium;
+}
+.close_text1	{
+
+    font-size:1em;
+    color: #ffffff;
+    float:left;
+}
+.log_text2	{
+    text-align:center;
+    color:rgb(239,240,244);
+    font-size:1.2em;
+    vertical-align: middle;
+    padding-left:45%;
+
+}
+.log_text2 a {
+    height:100%;
+    width: 0rem;
+}
+.login_text3	{
+
+    color:rgb(239,240,244);
+    font-size:1em;
+    float:right;
+}
+.username	{
+
+    text-align:left;
+    background:rgb(255,255,255);
+    padding:10px;
+    margin-top:5px;
+
+
+}
+.passwd		{
+    text-align:left;
+    background:rgb(255,255,255);
+    padding:10px;
+    margin-top:5px;
+
+}
+.phone_img	{
+    margin:5px;
+    width:16px;
+    float:left;
+}
+.lock_img	{
+    margin:5px;
+    width:16px;
+    float:left;
 }
 
-header{
-    background-color: #5fc0cd;
-    padding:2rem;
+.line_input{
+    margin-left:5px;
+    margin-right:10px;
+    position:relative;
+    height:30px;
+    width:2px;
+    float:left;
+    background:rgb(166, 170, 185);
+}
+.login	{
+    text-align:left;
+    background:rgb(95,192,205);
+    margin-top:30px;
+    height:30px
+}
+.button	{
+    font-size:1.2em;
+    color:rgb(239,240,244);
+    background:rgb(95,192,205);
+    height:50px;
+    width:100%;
+
+}
+.restpassword
+{
+    margin:30px;
+    text-align:right;
+    color:rgb(95,192,205);
+    font-size:1em;
+    float:right;
 }
