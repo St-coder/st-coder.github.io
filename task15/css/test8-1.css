@@ -1,0 +1,406 @@
+@media screen and (min-width: 768px) {
+    .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 1%;
+}
+    .arrowswrapper4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-right {
+        display: none!important;
+    }
+    .nav-hidden {
+      display: flex!important;
+
+    }
+    .nav-hidden:hover + .hidden-list {
+        display: block;
+    }
+    .nav-hidden button{
+        font-size: 1.8rem;
+        background-color: #29b078;
+        border: 0;
+        color: white;
+    }
+    .qrcode>img {
+        display: inline-block;
+    }
+    .nav {
+        justify-content: space-between!important;
+    }
+    .nav-left>img {
+        height: 2.5rem;
+        padding: 5% 0;
+    }
+}
+/*上面是header-top和导航栏以及footers的@media*/
+/*下面是轮播图*/
+.banner{
+    width:100%;
+    height:40vw;
+    position: relative;
+    max-height: 300px;
+    min-height: 120px;
+}
+.wrap{
+    width: 400%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.carousel {
+    width:100%;
+    height:100%;
+    animation: bb 30s ease 2s infinite normal;
+    position: absolute;
+    overflow: hidden;
+}
+.carousel div {
+    float: left;
+    width:25%;
+    height:100%;
+    text-align: center;
+}
+.carousel img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes bb {
+    0%,25% {
+        left: 0;
+        animation-delay: 5s; }
+    25%,50% {
+        left: -25%;
+    }
+    50%,75% {
+        left: -50%;
+        }
+    75%,100% {
+        left: -75%;
+       } }
+
+/*上面是轮播图*/
+
+
+
+
+
+
+
+    /*下面是header-top*/
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+.header_top .top_left {
+    font-size: 1.3rem;
+    color: #29b078;
+}
+.header_top .top_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_top .top_right .top_right_right {
+    padding-right:2vw;
+}
+/*上面是header-top*/
+/*下面是导航条p*/
+.nav-wrapper {
+    background-color: #29b078;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.7rem;
+    flex-wrap: wrap;
+}
+.container {
+    width: 80%;
+    padding:0 10%;
+    margin:0 auto;
+}
+.nav-left {
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-right {
+    width:50%;
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.nav-right .nav-page {
+     border-bottom: 2px solid white;
+}
+.nav-right div {
+    padding:1.5rem 1.5rem 1.5rem 1rem;
+    color: white;
+}
+.nav-right a {
+    color: white;
+    font-size: 2rem;
+}
+.nav-right div:hover {
+     border-bottom:2px solid white;
+}
+.nav-hidden {
+    display: none;
+    width:3rem;
+    color: white;
+    background-color: #29b078;
+   /* display: flex;*/
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-hidden button {
+    font-size:2rem;
+}
+.hidden-list {
+    width:100%;
+    display: none;
+    background-color:#29b078;
+    text-align: center;
+    color: white;
+    border-top:2px solid #26a26f;
+}
+
+
+.hidden-list li {
+    list-style-type: none;
+    font-size:1.5rem;
+    padding: 0.5rem;
+}
+.hidden-list li:hover {
+    border-bottom:1px solid white;
+}
+/*上面是>768部分*/
+
+
+
+/*上面是导航条*/
+
+
+
+/*<!--&lt;!&ndash;下面是content&ndash;&gt;
+&lt;!&ndash;高校、规范&ndash;&gt;-->*/
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenttop {
+    padding-top: 6%;
+    font-size:1rem;
+}
+.contenttop p{
+    font-size:1rem;
+}
+.contenttopinside img{
+    height:55px;
+}
+
+.contenttop div {
+    padding: 0 2%;
+}
+
+.contenttopinside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.contenttopinside3 {
+    border-right: 1px dotted gray;
+}
+.contenttopinside h4 {
+    padding: 4% 0;
+}
+
+.number p{
+    padding:1% 0;
+}
+
+
+/*下面是如何学习*/
+
+
+.contentmiddle1 {
+    padding: 4% 0;
+}
+
+.contentmiddle2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:2%;
+}
+.order {
+    border-radius: 50%;
+    border:1px solid;
+    width:1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5%;
+}
+.learnways{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+/*下面是优秀学员*/
+
+.show {
+    flex-direction: column;
+}
+
+.goodlearner {
+    padding: 5% 0;
+}
+.learner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.learnershow div{
+    padding:0 2%;
+}
+/*下面是战略zhanlue*/
+.cooperationcontent{
+    box-shadow: 0 0 5px;
+    width: 100%;
+}
+
+.cooperationcontent img {
+    height: 4rem;
+    width: 9rem;
+    padding: 7% 3%;
+}
+.cooperationcontent div:hover{
+    box-shadow: 0 0 5px;
+   /* border: 2px solid;*/
+}
+.active1{
+    box-shadow: 0 0 5px;
+}
+.cooperationtitlereal{
+    padding: 2% ;
+}
+
+.cooperationtitle {
+    flex-direction: column;
+}
+
+/*下面是友情链接*/
+
+.linktitle {
+    padding: 2%;
+}
+
+
+    /*下面是footer*/
+.footer a {
+    font-size: 1rem!important;
+    color:white;
+    text-decoration: none;
+}
+
+.footerwrapper {
+    background-color: #29b078;
+    color: white;
+    margin-top:8%;
+    /*padding-top: 8%;
+    padding-bottom: 5%;*/
+}
+.contactus {
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+.footerbottom {
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 1%;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #29b078;
+}
+
+.about a{
+    padding: 1% 0;
+  /*  width: 10rem;*/
+    width: 6rem;
+    display: block;
+    text-align: center;
+}
+.footer h4 {
+    text-align: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.aaa{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0;
+}
+
+
+.footerleft ,.footercenter {
+    padding: 2% 0;
+}
+
+.footertop {
+    padding-top: 4%;
+}
+
+
+h4 {
+    font-size: 1.2rem;
+}
+.about {
+    display: flex;
+    margin: 3% 0;
+}
+.aboutus,.contactus,.coo {
+    padding: 0 2%;
+}
+.it {
+    padding: 6% 0;
+}
+.websitewrapper1 a{
+    font-size:1rem;
+    text-decoration: none;
+    color: white;
+}
+.wechatplatform{
+    padding-bottom: 3%;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.qrcode {
+    text-align: center;
+}

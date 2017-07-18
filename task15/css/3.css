@@ -1,0 +1,527 @@
+@media screen and (min-width: 767px) and (max-width:1023px ) {
+    .front_page {
+        width: 49%;
+    }
+    .bottom-3 {
+        flex-wrap: wrap;
+    }
+    .direction span {
+        padding: 0.5rem 0.8rem!important;
+    }
+    .a2, .a3 {
+        display: inline-block;
+    }
+    html {
+        font-size: 72%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .front_page {
+        width: 32%;
+    }
+    .a2, .a3 {
+        display: inline-block!important;
+    }
+    h4 {
+        font-size: 1.4rem!important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contenttop{
+        display: block!important;
+    }
+
+    .contenttopinside4 .number {
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .front {
+        padding-top: 10%!important;
+    }
+    .active1 {
+        width:100%;
+    }
+    .linkcontentrow{
+        display: flex;
+        flex-direction: column;
+    }
+    .contentmiddle2{
+        display: block!important;
+    }
+    .number p {
+        padding:3% 0;
+    }
+    .number p img{
+        margin: 0 auto;
+    }
+    .contenttopinside4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contenttopinside3 {
+        border-right: 0!important;
+    }
+    .arrowswrapper4{
+        display: none;
+    }
+    .nav-right {
+        display: none!important;
+    }
+    .nav-hidden {
+        display: flex!important;
+
+    }
+   /* .nav-hidden:hover + .hidden-list {
+        display: block;
+    }*/
+    .nav-hidden button{
+        font-size: 1.8rem;
+        background-color: #29b078;
+        border: 0;
+        color: white;
+    }
+    .qrcode>img {
+        display: inline-block;
+    }
+
+    .footertop {
+        padding-top: 4%;
+    }
+
+    .nav {
+        justify-content: space-between!important;
+    }
+    .nav-left>img {
+        height: 2.5rem;
+        padding: 5% 0;
+    }
+    .arrows img{
+        transform: rotate(90deg);
+        margin: 5% auto;
+    }
+    .para {
+        padding: 4% 0;
+    }
+    .learnershow{
+        flex-direction: column;
+    }
+
+    .show h5{
+        width: 10rem;
+    }
+    .cooperationcontent {
+        flex-direction: column;
+    }
+    .friend li {
+        min-width: 8rem;
+        font-size: 1.5rem;
+        padding: 2% 0;
+        list-style-type: disc!important;
+    }
+    .footerwrapper .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-3 {
+        display:block!important;
+    }
+    .bottom-3 .bb{
+        width:100%;
+    }
+    .direction {
+        font-size: 1.8rem;
+        padding-top: 2%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: flex-start;
+    }
+    .a2 {
+        /*width:20%;*/
+    }
+    .a3 {
+        width:80%;
+    }
+    .direction span {
+        padding: 0!important;
+    }
+}
+
+
+
+/*上面是header-top和导航栏以及footers的@media*/
+
+
+/*下面是header-top*/
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.header_top .top_left {
+    font-size: 1.3rem;
+    color: #29b078;
+}
+.header_top .top_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_top .top_right .top_right_right {
+    padding-right:2vw;
+}
+/*上面是header-top*/
+
+
+
+/*下面是导航条p*/
+.nav-wrapper {
+    background-color: #29b078;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.7rem;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 90%;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+.nav-left {
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-right {
+    width:50%;
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.nav-right .nav-job {
+    border-bottom: 2px solid white;
+}
+.nav-right div {
+    padding:1.5rem 1.5rem 1.5rem 1rem;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+.nav-right a {
+    color: white;
+    font-size: 2rem;
+}
+.nav-right div:hover {
+    border-bottom:2px solid white;
+}
+.nav-hidden {
+    display: none;
+    width:3rem;
+    color: white;
+    background-color: #29b078;
+    /* display: flex;*/
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-hidden button {
+    font-size:2rem;
+}
+.hidden-list {
+    width:100%;
+    display: none;
+    background-color:#29b078;
+    text-align: center;
+    color: white;
+    border-top:2px solid #26a26f;
+}
+
+.hidden-list li {
+    list-style-type: none;
+    font-size:1.5rem;
+    padding: 0.5rem;
+}
+.hidden-list li:hover {
+    border-bottom:1px solid white;
+}
+/*上面是>768部分*/
+
+/*上面是导航条*/
+
+.home {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+    font-size: 2rem;
+}
+.direction {
+    font-size: 1.8rem;
+    padding-top: 2%;
+}
+.direction span {
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+.a31 {
+    background: #29b078;
+}
+.a32:hover {background-color: #29b078;}
+.a33:hover {background-color: #29b078;}
+.a34:hover {background-color: #29b078;}
+.a35:hover {background-color: #29b078;}
+.a36:hover {background-color: #29b078;}
+
+.front {
+    font-size: 2.2rem;
+    border-bottom: 1px solid #d0d6d9;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.front_page {
+    margin-top: 2%;
+    position: relative;
+    margin-right: 4px;
+    background-color: white;
+}
+.bb{
+    width:33.3%;
+}
+/*
+
+.front_page2 {
+    margin-top: 2%;
+    position: relative;
+    background-color: white;
+    width: 33%;
+    display: inline-block;
+}
+*/
+
+
+
+.photo_top {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 2%;
+}
+.photo_right {
+    float: right;
+    margin: 0 6%;
+   /* font-size: 1.5rem;*/
+}
+.photo_right>p {
+    word-break: break-all;
+    font-size: 1.5rem;
+}
+
+.table-bordered {
+    font-size: 1.3rem;
+    border: 1px solid #ddd;
+}
+/*
+.font_bottom {
+    border:1px solid #ddd;
+    padding: 2%;
+}
+*/
+
+table
+{
+    border-collapse:collapse;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 1.5rem;
+}
+td{
+    padding: 2% 2%;
+}
+td span{
+    color: red;
+    font-weight: bold;
+}
+td img {
+    display: inline;
+    padding-left: 5%;
+    vertical-align: middle;
+    max-width: 100%;
+}
+.all{
+    position: relative;
+}
+.hidden_over {
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.hidden_over .text{
+    padding: 0 6%;
+    color: white;
+}
+.text>h4 {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 2%;
+}
+.text>p {
+    text-indent: 2.3rem;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    word-break: break-all;
+    line-height: 2rem;
+}
+/*111111
+.all:hover + .hidden_over {
+    display: block!important;
+  }*/
+
+.front_page:hover .hidden_over{
+    display: block;
+}
+
+
+
+
+.bottom-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cc {
+    width: 33.3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*下面是footerp*/
+
+/*下面是footer*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 1%;
+}
+.footer a {
+    font-size: 1rem!important;
+    color:white;
+    text-decoration: none;
+}
+
+.footerwrapper {
+    background-color: #29b078;
+    color: white;
+    margin-top:8%;
+    /*padding-top: 8%;
+    padding-bottom: 5%;*/
+}
+.contactus {
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+.footerbottom {
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 1%;
+    color: white;
+    font-size: 1.3rem;
+    background-color: #29b078;
+}
+
+.about a{
+    padding: 1% 0;
+    /*  width: 10rem;*/
+    width: 6rem;
+    display: block;
+    text-align: center;
+}
+.footer h4 {
+    text-align: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.aaa{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0;
+}
+
+
+.footerleft ,.footercenter {
+    padding: 2% 0;
+}
+/*
+
+.footertop {
+    padding-top: 4%;
+}
+*/
+
+
+h4 {
+    font-size: 1.7rem;
+}
+.about {
+    display: flex;
+    margin: 3% 0;
+}
+.aboutus,.contactus,.coo {
+    padding: 0 2%;
+}
+.it {
+    padding: 6% 0;
+}
+.websitewrapper1 a{
+    font-size:1rem;
+    text-decoration: none;
+    color: white;
+}
+.wechatplatform{
+    padding-bottom: 3%;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.qrcode {
+    text-align: center;
+}
