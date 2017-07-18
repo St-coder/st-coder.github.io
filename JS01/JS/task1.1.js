@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 function ab() {
     var ia= end1();
     var box=document.getElementsByClassName('sqare');
